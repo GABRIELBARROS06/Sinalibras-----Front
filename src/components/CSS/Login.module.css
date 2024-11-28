@@ -1,0 +1,165 @@
+.body {
+    background-color: #deeeff;
+    height: 100vh;
+    width: 100vw;
+    padding: 32px 6%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
+.texto_grande{
+    font-size: xx-large;
+    color: #345ADE;
+    font-weight: bold;
+}
+
+.slogan{
+    font-size: 50px;
+    color: #345ADE;
+    font-weight: 600; 
+    margin-top: -30px;
+}
+.nome_aplicacao{
+    font-size: 80px;
+    color: #345ADE;
+    font-weight: bold;
+}
+.direita {
+    background-color: #5385B8;
+    margin: 50px 0px;
+    border-radius: 50px;
+    padding: 32px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto_acesse{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+@keyframes slideDownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cardValidado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e6ffe6;
+    border: 2px solid #66cc66;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cardErro {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background-color: #ffe5e5; /* Cor de fundo do erro */
+    color: #d9534f; /* Cor do texto */
+    border: 2px solid #d9534f;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.animacaoEntrada {
+    opacity: 1;
+    transform: translate(-50%, 0%);
+}
+
+.iconErro {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.iconSucesso {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Adiciona a animação */
+.animacaoEntrada {
+    animation: slideDownFade 0.5s ease-in-out;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fill;
+}
+.input {
+    width: fill;
+    height: 50px;
+    border-radius: 32px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #3E60AF;
+}
+
+.texto_input {
+    color: aliceblue;
+    font-size: x-large;
+}
+.esqueciASenha{
+    place-self: end;
+    color: aliceblue;
+    margin-bottom: 32px;
+    font-size: large;
+
+}
+.botao {
+    background-color: #deeeff;
+    color: #3E60AF;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 25px;
+}
+.texto{
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.erro_null {
+    margin-top: -30px;
+    color: firebrick;
+
+}

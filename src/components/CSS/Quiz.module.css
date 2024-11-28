@@ -1,0 +1,120 @@
+.body {
+    background: rgb(199,226,254);
+    background: linear-gradient(180deg, rgba(199,226,254,1) 50%, rgba(52,89,222,1) 100%);
+    width: 100vw;
+    padding: 32px 6%;
+    gap: 5%;
+}
+.logo{
+    height: 100px;
+    place-self: start;
+}
+.tela{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 32px;
+}
+.pergunta{
+    background-color: aliceblue;
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 70vw;
+}
+.textoErro{
+    font-size: xx-large;
+    color: red;
+}
+.textoPergunta{
+    color: #182b70;
+    font-size: xx-large;
+}
+.textoAuxilio{
+    color: #182b7057;
+    font-size: large;
+
+}
+
+.videos{
+    height: 50%;
+}
+
+.divRespostas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .divRespostas h3 {
+    width: 50%;
+    text-align: center;
+  }
+
+.btn{
+    background-color: #ffffff;
+    color: #182b70;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 3vw;
+}
+
+
+.respostaSelecionada{
+    background-color: #7FA1C3;
+    border-radius: 32px;
+}
+
+
+
+
+
+
+.card{
+    background-color: #deeeff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fill;
+    width: fill;
+    border-radius: 32px;
+    gap: 32px;
+    padding-top: 40px;
+
+}
+/* ACETOUQUIZ */
+.bodyAcerto{
+    background: rgb(199,226,254);
+    background: linear-gradient(180deg, rgba(199,226,254,1) 50%, rgba(52,89,222,1) 100%);
+    height: 100vh;
+    width: 100vw;
+    padding: 32px 6%;
+    gap: 5%;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.textoGrandeAcerto{
+    color: #1400FF;
+    font-size: 4vw;
+}
+.textoParabens{
+color: #182b70;
+font-size: 3vw;
+}
+.resumoResultado{
+    color: #182b70;
+    font-size: 2vw;
+    width: 30%;
+    text-align: center;
+}

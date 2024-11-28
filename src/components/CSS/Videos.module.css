@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(to bottom,  #C7E2FE 50%, #1B8BFF 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+.main-video {
+  width: 70%;
+}
+
+.main-video h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #22367C;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.professor-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.professor-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-image: url(https://yt3.googleusercontent.com/9Tq6Ax84r9nnq_CaIXbhrh7EcUk3k2Xq6mxO6iyl1jrC3hMt7DdTtQcVgyl2Csp0C2giVb2r=s160-c-k-c0x00ffffff-no-rj);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.date{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 50px;
+  background-color: #F7F2EB;
+  border-radius: 16px;
+  font-family:"Inter", sans-serif;
+  font-weight: 800;
+  color: #081F5C;
+  position: absolute;
+  left: 65%;
+}
+
+.professor-details {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.dot{
+  width: 13px;
+  height: 13px;
+  background-color: #22367C;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  margin-top: 3%;
+  
+}
+.label-professor {
+  background-color: #F7F2EB;
+  color: #081F5C;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-align: right;
+  border-radius:16px ;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.video-thumbnails {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  
+}
+
+.thumbnail-card {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.thumbnail-card video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}

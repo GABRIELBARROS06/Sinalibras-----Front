@@ -1,0 +1,120 @@
+/* Corpo principal */
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 0 10px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .header h1 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .backButton,
+  .donateButton {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #0066cc;
+    cursor: pointer;
+  }
+  
+  .donateButton {
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #0066cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .donateButton:hover {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  /* Container de mensagens */
+  .container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Balões de fala */
+  /* Animação */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* Começa ligeiramente abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Volta para a posição original */
+  }
+}
+
+/* Balão de fala com animação */
+.speechBubble,
+.speechBubbleRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: fadeInUp 0.6s ease-out; /* Aplica a animação */
+}
+
+.speechBubbleRight {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 70%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 14px;
+  animation: fadeInUp 0.6s ease-out; /* Animação para o texto também */
+}
+
+.bubble p {
+  margin: 0;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  animation: fadeInUp 0.6s ease-out; /* Ícones também entram animados */
+}
+
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer img {
+    width: 120px;
+  }
+  

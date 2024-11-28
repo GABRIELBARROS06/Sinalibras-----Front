@@ -1,0 +1,111 @@
+
+
+
+.configuracoes {
+    /* Estilos gerais da tela */
+    background-color: #C7E2FE;
+    padding: 12px 32px;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .btn_voltar{
+      height: 32px;
+  }
+  .logo{
+      height: 3%;
+  }
+  
+  .search_bar {
+    /* Estilos da barra de pesquisa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fill;
+  }
+  .search_bar div{
+      height: 50px;
+      width: 50vw;
+      gap: 12px;
+      background-color: #ACD0F5;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      padding: 12px;
+  }
+  
+  .search_bar input{
+    height: 50px;
+    width: 50vw;
+    background-color: #ACD0F5;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  input::placeholder{
+  font-size: 24px;
+  color: black;
+  border: none;
+  }
+  
+  .options_list {
+    /* Estilos da lista de opções */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 6px;
+    gap: 3vh;
+    margin-top: 32px;
+  }
+  
+  .card p{
+    font-size: 24px;
+  }
+  .card{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap: 6px;
+    width: 30vw;
+    height: 100px;
+    padding: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 24px;
+  }
+  .card div{
+      display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  }
+  .btn{
+      rotate: 180deg;
+      height: 32px;
+  }
+  
+  .excluir {
+    /* Estilos do botão de exclusão */
+    display: flex;
+    align-items: center;
+    background-color: #fd5b5b;
+    width: 30vw;
+    padding: 10px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  

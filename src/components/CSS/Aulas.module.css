@@ -1,0 +1,293 @@
+.App {
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .AppHeader1 {
+    background-image: linear-gradient(#C7E2FE, #345ADE);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+  
+  .AppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: 150px;
+    overflow: hidden;
+  }
+  
+  .h1 {
+    font-size: 3vw;
+    align-items: center;
+    overflow: hidden;
+    
+  }
+  
+  .inputsectionHeader {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 1000px; 
+    overflow: hidden;
+  }
+  
+  .quadradinhoRedondo1 {
+    background-color: #ffffff; 
+    width: 160px;
+    height: 30px;
+    border-radius: 15px; 
+    text-align: center; 
+    line-height: 28px; 
+    margin: 0 20px; 
+  }
+  
+  .quadradinhoRedondo2 {
+    background-color: #f1f4f8; 
+    width: 160px;
+    height: 30px;
+    border-radius: 15px; 
+    text-align: center; 
+    line-height: 28px; 
+    margin: 0 230px;
+  }
+  
+  .quadradinhoRedondo3 {
+    background-color: #eceef1; 
+    width: 160px;
+    height: 30px;
+    border-radius: 15px; 
+    text-align: center; 
+    line-height: 28px; 
+    margin: 0 15px; 
+  }
+  
+  
+  .img1 {
+    margin-left: 9px; 
+    transform: translateY(-950px); 
+    height: 150px;
+  }
+  
+  .img2{
+    margin-left: 9px; 
+    height: 150px;
+    transform: translateY(-850px); 
+  }
+  
+  
+  .img3{
+    margin-left: 9px; 
+    height: 150px;
+    transform: translateY(-745px); 
+  }
+  
+  .img4{
+    margin-left: 9px; 
+    height: 150px;
+    transform: translateY(-646px); 
+  }
+  
+  .img5{
+    margin-left: 9px; 
+    height: 150px;
+    transform: translateY(-535px); 
+  }
+  .aula2{
+    margin-left: -528px;
+    height: 150px;
+    transform: translateY(-1717px);
+    cursor: pointer;
+  }
+  
+  .aula3{
+    margin-left: -528px;
+    height: 150px;
+    transform: translateY(-1620px);
+    cursor: pointer;
+  }
+  
+  .aula4{
+    margin-left: 790px;
+    height: 150px;
+    transform: translateY(-1000px);
+    cursor: pointer;
+  }
+  
+  
+  .aula5{
+    margin-left: -528px;
+    height: 150px;
+    transform: translateY(-1666px);
+    cursor: pointer;
+  }
+  
+  
+  .aula6{
+    margin-left: -528px;
+    height: 150px;
+    transform: translateY(-1302px);
+    cursor: pointer;
+  }
+  
+  
+  .aulaf{
+    margin-left: 788px;
+    height: 150px;
+    transform: translateY(-2490px);
+    cursor: pointer;
+  }
+  
+  
+  .aulay{
+    margin-left: 788px;
+    height: 150px;
+    transform: translateY(-2386px);
+    cursor: pointer;
+  }
+  
+  .aulas{
+    margin-left: 788px;
+    height: 150px;
+    transform: translateY(-2288px);
+    cursor: pointer;
+  }
+  
+  
+  .aulak{
+    margin-left: 788px;
+    height: 150px;
+    transform: translateY(-2187px);
+    cursor: pointer;
+  
+  }
+  
+  
+  .aulal{
+    margin-right: 779px;
+    height: 150px;
+    transform: translateY(-2336px);
+    cursor: pointer;
+    
+  
+  }
+  .logo{
+    transform: translateY(-3678px);
+    margin-right: 1770px;
+  }
+  
+  .play{
+    height: 35px;
+    transform: translateY(-2260px);
+    margin-left: 38px;
+    cursor: pointer;
+  }
+  
+  .play2{
+    height: 35px;
+    margin-left: 35px;
+    transform: translateY(-2560px);
+    cursor: pointer;
+  }
+  .play3{
+    height: 35px;
+    transform: translateY(-2859px);
+    margin-left: 45px;
+    cursor: pointer;
+  
+  }
+  .play4{
+   
+    height: 35px;
+    transform: translateY(-3158px);
+    margin-left: 45px;
+    cursor: pointer;
+  }
+  .play5{
+    height: 35px;
+    transform: translateY(-3455px);
+    margin-left: 35px;
+    cursor: pointer;
+  }
+  
+  .playA{
+    height: 35px;
+    transform: translateY(-3480px);
+    margin-left: -410px;
+    cursor: pointer;
+  }
+  
+  .playB{
+    height: 35px;
+    transform: translateY(-3275px);
+    margin-left: -410px;
+    cursor: pointer;
+  }
+  .playC{
+    height: 35px;
+    transform: translateY(-2805px);
+    margin-left: -410px;
+    cursor: pointer;
+  }
+  
+  .playD{
+    height: 35px;
+    transform: translateY(-3100px);
+    margin-left: -790px;
+    cursor: pointer;
+  }
+  
+  
+  .playE{
+    height: 35px;
+    transform: translateY(-2618px);
+    margin-left: 790px;
+    cursor: pointer;
+  }
+  
+  .playR{
+    height: 35px;
+    transform: translateY(-2645px);
+    margin-left: -799px;
+    cursor: pointer;
+  }
+  
+  .playT{
+    height: 35px;
+    transform: translateY(-2957px);
+    margin-left: 800px;
+    cursor: pointer;
+  }
+  
+  .playY{
+    height: 35px;
+    transform: translateY(-3497px);
+    margin-left: 790px;
+    cursor: pointer;
+  }
+  
+  
+  .playH{
+    height: 35px;
+    transform: translateY(-3290px);
+    margin-left: 799px;
+    cursor: pointer;
+  }
+  
+  
+  .playK{
+    height: 35px;
+    transform: translateY(-3830px);
+    margin-left: 799px;
+    cursor: pointer;
+  }
+  
+  .perfil{
+    height: 70px;
+    margin-left: 1950px;
+    transform: translateY(-1308px);
+    cursor: pointer;
+    
+  }

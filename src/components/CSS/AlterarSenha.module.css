@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #ACD0F5, #1B8BFF);
+  height: 100vh;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  gap: 85vh;
+}
+
+header .icon{
+  width: 80px;
+  height: 60px;
+}
+
+header h2{
+  margin: 8px;
+}
+
+.mesage{
+  width: 30vw;
+  height: 20vh;
+  background-color: #22367C;
+  border-radius: 16px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  margin: 0 auto;
+}
+
+.mesage p{
+  width: 350px;
+  height: 50px;
+  font-size: 24px;
+}
+
+.mesage-input{
+  display: flex;
+  gap: 16px;
+
+}
+
+.mesage-input .code{
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.mesage-input button{
+  width: 50px;
+  height: 50px;
+  border-radius:8px ;
+}
+
+.text{
+  width: 300px;
+  height: 100px;
+  font-size: 24px;
+  margin: 0 auto;
+  position: relative;
+  right:10%;
+  top: 5%;
+  padding: 54px;
+  
+}
+
+.passwords{
+  display: grid;
+  width: 15vw;
+  height: 10vw;
+ margin: 0 auto;
+ position: relative;
+ left: 7%;
+}
+
+.passwords .pass{
+  border-color: #9B51E0;
+  background-color: #A5D1FF;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.passwords .pass1{
+  border-color: #9B51E0;
+  background-color: #A5D1FF;
+  border-radius: 16px;
+  margin: 8px;
+}
+.passwords .eye{
+margin-left: 90%;
+}
+
+.passwords button{
+  background-color: #22367C;
+  border-radius: 16px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  left: 25%;
+  color: white;
+}

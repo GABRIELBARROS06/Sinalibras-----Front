@@ -1,0 +1,136 @@
+.body {
+    background-color: #deeeff;
+    height: 100vh;
+    width: 100vw;
+    padding: 32px 6%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: fill;
+    gap: 30px;
+}
+.entrar{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 60px;
+    background-color: rgba(113, 105, 228, 0.144);
+    border-radius: 10px;
+    border: solid rgb(39, 101, 155);
+}
+
+.texto {
+    color: #345ADE;
+    text-align: center;
+}
+
+
+.direita {
+    background-color: #5385B8;
+    margin: 50px 0px;
+    border-radius: 50px;
+    padding: 32px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fill;
+    margin-bottom: 32px;
+
+}
+
+.input {
+    width: 100%;
+    height: 32px;
+    border-radius: 32px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #3E60AF;
+}
+
+.texto_input {
+    color: aliceblue;
+    font-size: medium;
+}
+
+.botao {
+    background-color: #deeeff;
+    color: #3E60AF;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+}
+
+.direita_professor {
+    gap: 32px;
+    padding: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_professor {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.negrito {
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.input_email {
+    width: fill;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #deeeff;
+    color: #deeeff;
+    font-size: large;
+}
+
+::placeholder {
+    font-size: large;
+    color: #deeeff;
+}
+
+.erro_null {
+    margin-top: -30px;
+    color: firebrick;
+
+}

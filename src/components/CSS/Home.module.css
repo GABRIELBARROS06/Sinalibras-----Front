@@ -1,0 +1,282 @@
+.body {
+    background-color: #deeeff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.esquerda{
+    background-color: #A5D1FF;
+height: 100vh;
+width: 30vw;
+padding: 32px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f8ff; /* Azul claro */
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.logo {
+    height: 50px;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #007BFF; /* Azul escuro */
+}
+
+.userName {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* RESTANTE DO CSS PERMANECE IGUAL */
+
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: column;
+    height: 50vh;
+    margin-top: 10vh;
+}
+.divzinha{
+    display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+}
+
+/* Animação de fade-out para transição */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+/* Classe de transição */
+.fadeOut {
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+
+.search_bar {
+    /* Estilos da barra de pesquisa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fill;
+  }
+  .search_bar div{
+      height: 50px;
+      width: 50vw;
+      gap: 12px;
+      background-color: #ACD0F5;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      padding: 12px;
+  }
+  
+  .search_bar input{
+    height: 50px;
+    width: 50vw;
+    background-color: #ACD0F5;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  input::placeholder{
+  font-size: 24px;
+  color: black;
+  border: none;
+  }
+.cardPublicacaoTipoVideo{
+    background-color:aliceblue;
+    width: 30vw;
+    border-radius: 12px;
+
+}
+
+/* Estilo do container do usuário */
+.userContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Nome do usuário */
+.userName {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Ícone de seta */
+.arrowDown {
+    font-size: 1.2rem;
+    color: #555;
+    transition: transform 0.3s ease;
+}
+
+.arrowDown:hover {
+    transform: rotate(180deg);
+}
+
+/* Dropdown card */
+/* Dropdown card - Posição inicial com animação */
+.dropdownCard {
+    position: absolute;
+    top: 3.5rem; /* Distância do ícone */
+    right: 0; /* Alinhado à direita */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0; /* Início invisível */
+    transform: scale(0.9); /* Escala menor */
+    transform-origin: top right; /* Expande da borda superior direita */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+/* Quando o card estiver visível */
+.dropdownCardVisible {
+    opacity: 1; /* Totalmente visível */
+    transform: scale(1); /* Escala normal */
+}
+
+
+/* Opção no card */
+.cardOption {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    gap: 0.8rem;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cardOption:hover {
+    background: #f0f0f0;
+}
+
+/* Ícones no card */
+.cardIcon {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* .informacoesDoVideo{
+    background-color: rgba(23, 22, 83, 0.404);
+    padding: 12px;
+    border-radius: 12px 0px 0px 0px;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.infoVideo{
+    font-size: 20px;
+   
+} */
+/* .video{
+    width: 100%;
+} */
+.informacoesDoVideo {
+    position: absolute;
+    background-color: rgba(23, 22, 83, 0.404);
+    padding: 12px;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    color: aliceblue;
+    top: 0;
+    transform: translateY(-100%); /* Mover para fora da tela inicialmente */
+    transition: transform 0.3s ease-in-out; /* Transição suave */
+    z-index: 1;
+    opacity: 0; /* Inicialmente invisível */
+}
+.infoEVideo{
+    background-color: rgba(23, 22, 83, 0.404);
+    padding: 12px;
+    border-radius: 12px 0px 0px 0px;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.infoEVideo:hover > .informacoesDoVideo {
+    transform: translateY(0%); /* Exibir informações */
+    opacity: 1; /* Tornar visível */
+
+}
+.video{
+    width: 100%;
+}
+
+.cardPublicacaoTipoVideo hr{
+    border: solid 1.5px #3459DE;
+}
+.divComentar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 12px;
+}
+.divComentar div{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.divComentar h4{
+    color: #3459DE;
+    font-size: 20px;
+}
+.divComentar img{
+    height: 30px;
+}
+
